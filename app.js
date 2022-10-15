@@ -4,7 +4,7 @@ const app = new Vue({
     lessons: lessons,
     onHome: true,
     ascending: true,
-    sortBy: "",
+    sortBy: "subject",
     cart: [],
     search: "",
     showProduct: true,
