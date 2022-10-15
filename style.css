@@ -1,0 +1,26 @@
+input:focus {
+    color: #222;
+    background: #97abbe;
+    border-color: #999;
+  }
+  
+  input:valid {
+    box-shadow: 0 0 2px rgba(0, 255, 0, 0.4);
+  }
+  
+  input:valid:focus {
+    background: #80be93;
+    box-shadow: none;
+  }
+  
+  input:invalid {
+    box-shadow: 0 0 2px rgba(255, 0, 0, 0.4);
+  }
+  input:invalid:focus {
+    box-shadow: none;
+  }
+
+  form:invalid button[type="submit"] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
